@@ -1,0 +1,54 @@
+/* Fontawesome  6.2.1 cdn*/
+@import url("https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css");
+
+/* XEICON CDN */
+@import url("http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css");
+
+/* Web Fonts -Source Sans Pro  - 영문 폰트*/
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700,900&display=swap");
+/* font-family : "Source Sans Pro, sans-serif" */
+
+/* Web Fonts - NooNoo - 한글 폰트 */
+@font-face {
+  font-family: "NEXON Lv2 Gothic";
+  src: url("https://cdn.jsdeliver.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv2 Gothic.woff")
+    format ("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Reset css */
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+}
+
+button,
+input {
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  font-weight: normal;
+  line-height: 1.5em;
+}
+
+/* Default CSS - 기본서식*/
+body {
+  font-family: "NEXON Lv2 Gothic", sans-serif;
+  font-size: 18px;
+  line-height: 1.7em;
+  margin: 0;
+  background-color: #fff;
+  color: #222;
+}
