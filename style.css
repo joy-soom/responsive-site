@@ -30,12 +30,12 @@ header {
 .banner {
   display: none;
 }
-/* .feature {
-  display: none;
-} */
-.vision {
+.feature {
   display: none;
 }
+/* .vision {
+  display: none;
+} */
 .faq {
   display: none;
 }
@@ -173,8 +173,7 @@ header {
   padding: 0 100px;
   margin-bottom: 50px;
 }
-.welcome-btns {
-}
+
 .btn {
   display: inline-block;
   width: 160px;
@@ -408,8 +407,6 @@ input[id="tab3"]:checked ~ .tab-btn label[for="tab3"] span {
 
 /*#################################3 Section : feature ###################################*/
 
-.feature {
-}
 .feature-inner {
   width: 1300px;
   margin: auto;
@@ -423,9 +420,6 @@ input[id="tab3"]:checked ~ .tab-btn label[for="tab3"] span {
   width: 50%;
   text-align: center;
 }
-.feature-mockup {
-}
-
 .feature-about {
   padding: 0 70px;
   padding-top: 70px;
@@ -435,6 +429,45 @@ input[id="tab3"]:checked ~ .tab-btn label[for="tab3"] span {
 }
 
 /*#################################3 Section : vision ####################################*/
+.vision-content {
+  overflow: hidden;
+}
+.vision-content > div {
+  float: left;
+  width: 33.333333333%;
+  height: 400px;
+}
+.vision-item-desc {
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.vision-item-desc h3 {
+  font-size: 28px;
+  margin-bottom: 0;
+}
+.vision-item-headline {
+  width: 60%;
+}
+.vision-item-desc hr {
+  width: 45px;
+  height: 3px;
+  border: none;
+  background-color: #9b59b6;
+  display: inline-block;
+}
+.vision-item-desc p {
+  margin-top: 0;
+}
+.vision-item-photo {
+}
+.vision-item-photo img {
+  width: 100%;
+  height: inherit;
+  object-fit: cover;
+}
+
 /*#################################3 Section : faq #######################################*/
 /*#################################3 Section : review ####################################*/
 /*#################################3 Section : focus #####################################*/
