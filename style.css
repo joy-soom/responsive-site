@@ -17,6 +17,44 @@
   font-style: normal;
 }
 
+/* section display */
+header {
+  display: none;
+}
+.welcom {
+  display: none;
+}
+.ceo-access {
+  display: none;
+}
+.banner {
+  display: none;
+}
+/* .feature {
+  display: none;
+} */
+.vision {
+  display: none;
+}
+.faq {
+  display: none;
+}
+.review {
+  display: none;
+}
+.focus {
+  display: none;
+}
+.guide {
+  display: none;
+}
+.news {
+  display: none;
+}
+footer {
+  display: none;
+}
+
 /* Reset css */
 * {
   box-sizing: border-box;
@@ -51,6 +89,29 @@ body {
   margin: 0;
   background-color: #fff;
   color: #222;
+}
+
+/* Common css */
+.headline-share {
+  text-align: center;
+}
+.headline-share h1 {
+  font-size: 44px;
+  position: relative;
+  padding-bottom: 20px;
+}
+.headline-share h1:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  width: 80px;
+  background: linear-gradient(to right, #1f8de6, #5ed6fe);
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.headline-share {
+  font-size: 20px;
 }
 
 /*#################################### Header########################################## */
@@ -346,6 +407,33 @@ input[id="tab3"]:checked ~ .tab-btn label[for="tab3"] span {
 }
 
 /*#################################3 Section : feature ###################################*/
+
+.feature {
+}
+.feature-inner {
+  width: 1300px;
+  margin: auto;
+}
+.feature-content {
+  overflow: hidden;
+  margin: 150px 0;
+}
+.feature-content > div {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+.feature-mockup {
+}
+
+.feature-about {
+  padding: 0 70px;
+  padding-top: 70px;
+}
+.feature-about h2 {
+  font-size: 30px;
+}
+
 /*#################################3 Section : vision ####################################*/
 /*#################################3 Section : faq #######################################*/
 /*#################################3 Section : review ####################################*/
