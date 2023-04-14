@@ -33,12 +33,12 @@ header {
 .feature {
   display: none;
 }
-/* .vision {
-  display: none;
-} */
-.faq {
+.vision {
   display: none;
 }
+/* .faq {
+  display: none;
+} */
 .review {
   display: none;
 }
@@ -460,8 +460,7 @@ input[id="tab3"]:checked ~ .tab-btn label[for="tab3"] span {
 .vision-item-desc p {
   margin-top: 0;
 }
-.vision-item-photo {
-}
+
 .vision-item-photo img {
   width: 100%;
   height: inherit;
@@ -469,6 +468,102 @@ input[id="tab3"]:checked ~ .tab-btn label[for="tab3"] span {
 }
 
 /*#################################3 Section : faq #######################################*/
+
+.faq-inner {
+  width: 1300px;
+  margin: auto;
+}
+.faq-content {
+  overflow: hidden;
+}
+.faq-content > div {
+  float: left;
+  width: 50%;
+  padding: 25px;
+  min-height: 650px;
+}
+/* faq-accordion */
+
+.faq-item {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.faq-item > div {
+  padding: 15px;
+}
+.faq-title {
+  color: #448ad1;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.faq-title > img {
+  width: 10px;
+  filter: invert(86%) sepia(30%) saturate(5835%) hue-rotate(182deg)
+    brightness(99%) contrast(106%);
+  transition: 0.35s;
+}
+.faq-desc {
+  display: none;
+}
+.faq-item.active {
+  border: 1px solid #7dbeff;
+}
+.faq-item.active .faq-title > img {
+  filter: invert(86%) sepia(30%) saturate(5835%) hue-rotate(182deg)
+    brightness(99%) contrast(106%);
+  transform: rotate(90deg);
+}
+/* awards-content */
+.awards-content {
+  text-align: center;
+}
+.awards-image {
+  position: relative;
+  margin-bottom: 40px;
+}
+.awards-image:after {
+  content: "december9, 2020";
+  position: absolute;
+  background-color: #000;
+  width: 185px;
+  height: 50px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 16px;
+  line-height: 50px;
+  bottom: -10px;
+  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.awards-image img {
+  width: 100%;
+}
+.awards-content h2 {
+  font-size: 36px;
+  color: #e7a300;
+}
+.awards-content p {
+  margin-bottom: 40px;
+}
+.btn-awards {
+  border: 1px solid #000;
+  padding: 13px 20px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: 0.35s;
+}
+.btn-awards :hover {
+  color: #fff;
+  background-color: crimson;
+  border-color: transparent;
+}
+
 /*#################################3 Section : review ####################################*/
 /*#################################3 Section : focus #####################################*/
 /*#################################3 Section : guide #####################################*/
