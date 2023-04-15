@@ -17,7 +17,6 @@ $(function () {
     autoplaySpeed: 2000,
   });
 
-
   /* TypeIt - Welcome */
   $("#typing").typeIt({
     strings: ["Business strategy.", "Innovation Plan.", "Creative Idea."], // 타이핑 텍스트 입력
@@ -37,5 +36,13 @@ $(function () {
     // 클릭 슬라이드 css 주기
     $(this).parent().addClass("active");
     $(this).parent().siblings().removeClass("active");
+  });
+
+  // video modal
+  $(".open-modal").click(function () {
+    $(".video-modal").fadeIn();
+  });
+  $(".close-modal").click(function () {
+    $(".video-modal").fadeOut();
   });
 });
