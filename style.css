@@ -39,15 +39,15 @@ header {
 .faq {
   display: none;
 }
-/* .review {
+.review {
   display: none;
-} */
+}
 .focus {
   display: none;
 }
-.guide {
+/* .guide {
   display: none;
-}
+} */
 .news {
   display: none;
 }
@@ -260,7 +260,6 @@ header {
   transform: scale(0.6);
   top: 2.5px;
 }
-
 
 /*################################# Section : ceo-access ################################*/
 .ceo-inner,
@@ -645,4 +644,82 @@ h1.slogan {
 }
 
 /*#################################3 Section : guide #####################################*/
+.guide {
+}
+.guide-inner {
+  width: 1300px;
+  margin: auto;
+}
+.guide-content {
+  overflow: hidden;
+}
+.guide-content > div {
+  float: left;
+}
+.guide-slider {
+  width: 40%;
+  text-align: center;
+}
+.guide-video {
+  width: 60%;
+}
+.slider-mockup {
+  display: inline-block;
+  position: relative;
+}
+.mockup-slider {
+  position: absolute;
+  width: 85%;
+  height: 550px;
+  top: 51%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.guide-video h1 {
+  font-size: 38px;
+  text-transform: uppercase;
+}
+.guide-video h1 span {
+  color: #eb4d4b;
+}
+.video-headline {
+  font-size: 34px;
+}
+.video-headline img {
+  vertical-align: middle;
+  margin-top: -3px;
+}
+.video-frame {
+  width: 530px;
+  height: 370px;
+  position: relative;
+}
+.video-frame img {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.xi-play-circle-o:before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 80px;
+  opacity: 0.5;
+}
+
+.mockup-slider .slick-dots {
+  bottom: 10px;
+}
+.mockup-slider .slick-dots li {
+  margin: 0;
+}
+.mockup-slider .slick-dots li button:before {
+  font-size: 30px;
+}
+
 /*#################################3 Section : news ######################################*/

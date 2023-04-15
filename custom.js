@@ -10,12 +10,13 @@ $(function () {
   });
 
   // review - slick
-  $(".review-slider").slick({
+  $(".review-slider, .mockup-slider").slick({
     infinite: true,
     dots: true,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 2000,
   });
+
 
   /* TypeIt - Welcome */
   $("#typing").typeIt({
