@@ -39,12 +39,12 @@ header {
 .faq {
   display: none;
 }
-.review {
-  display: none;
-}
-/* .focus {
+/* .review {
   display: none;
 } */
+.focus {
+  display: none;
+}
 .guide {
   display: none;
 }
@@ -89,6 +89,10 @@ body {
   margin: 0;
   background-color: #fff;
   color: #222;
+}
+
+section {
+  padding: 100px 0;
 }
 
 /* Common css */
@@ -240,8 +244,25 @@ header {
 .slideshow-area * {
   outline: none;
 }
+/* review slider */
+.review-slider .slick-dots li {
+  margin: 0;
+}
+.review-slider .slick-dots li button:before {
+  opacity: 1;
+  font-size: 30px;
+}
+.review-slider .slick-dots li.slick-active button:before {
+  opacity: 1;
+  color: transparent;
+  border: 1px solid #000;
+  border-radius: 50%;
+  transform: scale(0.6);
+  top: 2.5px;
+}
 
-/*#################################3 Section : ceo-access ################################*/
+
+/*################################# Section : ceo-access ################################*/
 .ceo-inner,
 .access-inner {
   width: 1300px;
@@ -565,6 +586,32 @@ input[id="tab3"]:checked ~ .tab-btn label[for="tab3"] span {
 }
 
 /*#################################3 Section : review ####################################*/
+.review {
+  background-color: #f9f9f9;
+}
+.review-inner {
+  width: 1300px;
+  margin: auto;
+}
+.review-content {
+  width: 900px;
+  margin: auto;
+  text-align: center;
+}
+h1.slogan {
+  font-size: 36px;
+}
+.review-slider div {
+  outline: none;
+}
+.review-slider div p {
+  padding: 0 70px;
+}
+.review-slider div p span {
+  display: block;
+  font-weight: bold;
+}
+
 /*#################################3 Section : focus #####################################*/
 
 .focus-inner {

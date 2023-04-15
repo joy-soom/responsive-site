@@ -9,6 +9,14 @@ $(function () {
     pauseOnHover: false,
   });
 
+  // review - slick
+  $(".review-slider").slick({
+    infinite: true,
+    dots: true,
+    autoplay: false,
+    autoplaySpeed: 2000,
+  });
+
   /* TypeIt - Welcome */
   $("#typing").typeIt({
     strings: ["Business strategy.", "Innovation Plan.", "Creative Idea."], // 타이핑 텍스트 입력
@@ -18,7 +26,6 @@ $(function () {
   });
 });
 // faq accordian
-
 $(function () {
   // 첫번째 desc 는 보여지게 하기
   $(".faq-desc").eq(0).show();
