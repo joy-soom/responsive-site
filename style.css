@@ -20,40 +20,40 @@
 /* section display */
 /* header {
   display: none;
-}
-.welcom {
+} */
+/* .welcom {
   display: none;
-}
-.ceo-access {
+} */
+/* .ceo-access {
   display: none;
-}
-.banner {
+} */
+/* .banner {
   display: none;
-}
-.feature {
+} */
+/* .feature {
   display: none;
-}
-.vision {
+} */
+/* .vision {
   display: none;
-}
-.faq {
+} */
+/* .faq {
   display: none;
-}
-.review {
+} */
+/* .review {
   display: none;
-}
-.focus {
+} */
+/* .focus {
   display: none;
-}
-.guide {
+} */
+/* .guide {
   display: none;
-}
-.news {
+} */
+/* .news {
   display: none;
-}
+} */
 /* footer {
   display: none;
-} */ */
+} 
 
 /* Reset css */
 * {
@@ -157,7 +157,7 @@ section {
 header {
   position: fixed;
   width: 100%;
-  z-index: 1;
+  z-index: 10;
 }
 .header-inner {
   width: 1300px;
@@ -183,6 +183,7 @@ header {
 .welcom {
   height: 90vh;
   position: relative;
+  padding: 0;
 }
 .welcome-heading {
   position: absolute;
@@ -297,6 +298,10 @@ header {
 }
 
 /*################################# Section : ceo-access ################################*/
+.ceo-access {
+  padding: 0;
+}
+
 .ceo-inner,
 .access-inner {
   width: 1300px;
@@ -375,10 +380,10 @@ header {
 /*#################################3 Section : banner ####################################*/
 
 .banner {
-  /* background: linear-gradient(to right, #69acfe, #6eaefd); */
   background: url(images/wave-line.png) no-repeat center right 100px,
     linear-gradient(to right, #69acfe, #6eaefd);
   background-size: 80px;
+  padding: 0;
 }
 .banner-inner {
   width: 1300px;
@@ -484,6 +489,9 @@ input[id="tab3"]:checked ~ .tab-btn label[for="tab3"] span {
 }
 
 /*#################################3 Section : vision ####################################*/
+.vision {
+  padding: 0;
+}
 .vision-content {
   overflow: hidden;
 }
@@ -679,6 +687,10 @@ h1.slogan {
 }
 
 /*#################################3 Section : guide #####################################*/
+
+.guide {
+  padding-top: 0;
+}
 
 .guide-inner {
   width: 1300px;
@@ -951,6 +963,6 @@ footer {
   margin: 1px;
   transition: 0.5s;
 }
-.sns i:hover{
-background-color: #000;
+.sns i:hover {
+  background-color: #000;
 }
