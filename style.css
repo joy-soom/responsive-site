@@ -45,12 +45,12 @@ header {
 .focus {
   display: none;
 }
-/* .guide {
-  display: none;
-} */
-.news {
+.guide {
   display: none;
 }
+/* .news {
+  display: none;
+} */
 footer {
   display: none;
 }
@@ -91,6 +91,9 @@ body {
   color: #222;
 }
 
+body.active {
+  overflow: hidden;
+}
 section {
   padding: 100px 0;
 }
@@ -644,8 +647,7 @@ h1.slogan {
 }
 
 /*#################################3 Section : guide #####################################*/
-.guide {
-}
+
 .guide-inner {
   width: 1300px;
   margin: auto;
@@ -723,6 +725,132 @@ h1.slogan {
 }
 
 /*#################################3 Section : news ######################################*/
+
+.news {
+  background-color: #f9f9f9;
+}
+.news-inner {
+  width: 1300px;
+  margin: auto;
+}
+.news-content {
+  overflow: hidden;
+}
+.news-content > div {
+  float: left;
+  width: 50%;
+}
+
+.news-big {
+  width: 550px;
+  height: 550px;
+  position: relative;
+  margin: auto;
+  cursor: pointer;
+}
+.news-big:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: 0.5s;
+}
+.news-big:hover:before {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.news-big img {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+}
+.news-headline {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  width: 80%;
+}
+.news-headline h2 {
+  font-size: 32px;
+}
+
+.date {
+  display: block;
+  font-size: 14px;
+  margin-top: 20px;
+  float: right;
+}
+.btn-view {
+  background-color: #000;
+  color: white;
+  font-size: 16px;
+  padding: 8px 20px;
+}
+.news-items {
+  margin-bottom: 50px;
+}
+
+.news-items > div {
+  display: inline-block;
+}
+.news-thum {
+  width: 280px;
+  cursor: pointer;
+}
+.news-thum:first-child {
+  margin-right: 40px;
+}
+.news-thum:hover img {
+  transform: scale(1.1);
+}
+.news-photo {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+.news-thum p {
+  margin-top: 0;
+}
+.news-thum .date {
+  float: right;
+}
+.news-photo img {
+  display: block;
+  transition: 0.5s;
+}
+.badge {
+  position: absolute;
+
+  color: white;
+  left: 0;
+  bottom: 0;
+  font-size: 12px;
+  padding: 0 5px;
+}
+.badge.new {
+  background-color: #000;
+}
+.badge.hot {
+  background-color: crimson;
+}
+.btn-readmore {
+  color: white;
+  text-transform: uppercase;
+  background-color: #7b9acc;
+  font-size: 14px;
+  display: block;
+  width: 180px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 20px;
+  font-weight: bold;
+  margin: auto;
+}
 
 /* video modal */
 .video-modal {
