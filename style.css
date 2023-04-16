@@ -8,52 +8,15 @@
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700,900&display=swap");
 /* font-family : "Source Sans Pro, sans-serif" */
 
-/* Web Fonts - NooNoo - 한글 폰트 */
+/* Web Fonts - NoonNoo - 한글 폰트 */
+
 @font-face {
   font-family: "NEXON Lv2 Gothic";
-  src: url("https://cdn.jsdeliver.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv2 Gothic.woff")
-    format ("woff");
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv2 Gothic.woff")
+    format("woff");
   font-weight: normal;
   font-style: normal;
 }
-
-/* section display */
-/* header {
-  display: none;
-} */
-/* .welcom {
-  display: none;
-} */
-/* .ceo-access {
-  display: none;
-} */
-/* .banner {
-  display: none;
-} */
-/* .feature {
-  display: none;
-} */
-/* .vision {
-  display: none;
-} */
-/* .faq {
-  display: none;
-} */
-/* .review {
-  display: none;
-} */
-/* .focus {
-  display: none;
-} */
-/* .guide {
-  display: none;
-} */
-/* .news {
-  display: none;
-} */
-/* footer {
-  display: none;
-} 
 
 /* Reset css */
 * {
@@ -95,7 +58,10 @@ body.active {
   overflow: hidden;
 }
 section {
-  padding: 100px 0;
+  padding: 130px 0;
+}
+html {
+  scroll-behavior: smooth;
 }
 
 /* Common css */
@@ -121,15 +87,33 @@ section {
   font-size: 20px;
 }
 
+.btn-top {
+  position: fixed;
+  right: 20px;
+  bottom: -50px;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  line-height: 43px;
+  text-align: center;
+  transition: 0.5s;
+}
+.btn-top.active {
+  bottom: 20px;
+}
+
 /* video modal */
 .video-modal {
   background-color: #000;
-  position: absolute;
+  position: fixed;
   width: 100%;
   height: 100%;
   top: 0;
   bottom: 0;
   display: none;
+  z-index: 9999;
 }
 .close-modal {
   color: #fff;
@@ -158,6 +142,11 @@ header {
   position: fixed;
   width: 100%;
   z-index: 10;
+  transition: 0.5s;
+}
+header.active {
+  background-color: #fff;
+  box-shadow: 0 3px 5px rgb(0, 0, 0, 0.05);
 }
 .header-inner {
   width: 1300px;
@@ -166,6 +155,7 @@ header {
   padding-top: 30px;
   padding-bottom: 15px;
 }
+
 .lgo {
   float: left;
 }
@@ -299,7 +289,7 @@ header {
 
 /*################################# Section : ceo-access ################################*/
 .ceo-access {
-  padding: 0;
+  padding-bottom: 0;
 }
 
 .ceo-inner,
@@ -490,7 +480,8 @@ input[id="tab3"]:checked ~ .tab-btn label[for="tab3"] span {
 
 /*#################################3 Section : vision ####################################*/
 .vision {
-  padding: 0;
+  padding-bottom: 0;
+  padding-top: 150px;
 }
 .vision-content {
   overflow: hidden;
@@ -965,4 +956,49 @@ footer {
 }
 .sns i:hover {
   background-color: #000;
+}
+
+/*############################ scroll reveal css animation ###############################*/
+
+.ltr {
+  animation: ltr 0.5s linear both;
+}
+.rtl {
+  animation: rtl 0.5s linear both;
+}
+.utd {
+  animation: utd 0.5s linear both;
+}
+
+@keyframes ltr {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes rtl {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes utd {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }

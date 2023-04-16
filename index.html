@@ -7,15 +7,17 @@
     <!-- jQuery CDN -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <!-- slick slider -->
-    <link rel="stylesheet" href="/js/slick/slick-theme.css" />
+    <link rel="stylesheet" href="js/slick/slick-theme.css" />
     <link rel="stylesheet" href="js/slick/slick.css" />
-    <script src="/js/slick/slick.min.js"></script>
+    <script src="js/slick/slick.min.js"></script>
     <!-- TypeIt -->
-    <script src="/js/typeit.min.js"></script>
+    <script src="js/typeit.min.js"></script>
     <!-- fontawesome -->
     <link
       src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/fontawesome.min.css"
     />
+    <!-- Wow scroll Reveal Animation-->
+    <script src="js/wow.min.js"></script>
     <!-- custom css & js -->
     <title>StarUp Mate : App official Landing</title>
     <link rel="icon" href="images/logo-favicon.png" />
@@ -29,18 +31,18 @@
       <header>
         <div class="header-inner">
           <div class="lgo">
-            <a href="#none">
+            <a href="#">
               <img src="images/logo.png" />
             </a>
           </div>
           <div class="gnb">
-            <a href="#none">CEO 인사말</a>
-            <a href="#none">서비스 특징</a>
-            <a href="#none">자주 묻는 질문들</a>
-            <a href="#none">경영 비전</a>
-            <a href="#none">사용자 리뷰</a>
-            <a href="#none">앱 사용자 가이드</a>
-            <a href="#none">최신소식</a>
+            <a href="#feature1">CEO 인사말</a>
+            <a href="#feature2">서비스 특징</a>
+            <a href="#feature3">경영 비전</a>
+            <a href="#feature4">자주 묻는 질문들</a>
+            <a href="#feature5">사용자 리뷰</a>
+            <a href="#feature6">앱 사용자 가이드</a>
+            <a href="#feature7">최신소식</a>
           </div>
         </div>
       </header>
@@ -72,10 +74,10 @@
       </section>
 
       <!-- section : ceo-access -->
-      <section class="ceo-access">
+      <section class="ceo-access" id="feature1">
         <div class="ceo-inner">
           <div class="ceo-content">
-            <div class="ceo-left">
+            <div class="ceo-left ltr wow">
               <img src="images/quotation-mark.svg" />
               <h3>3 Pre-made Solutions for your Startup Business</h3>
               <p>
@@ -86,7 +88,7 @@
               </p>
               <span> 앤드류 - 스타트업 메이트 대표이사 </span>
             </div>
-            <div class="ceo-right">
+            <div class="ceo-right rtl wow">
               <div class="ceo-msg">
                 <h3>
                   Application Downloads
@@ -105,7 +107,7 @@
         </div>
         <div class="access-inner">
           <div class="access-content">
-            <div class="access-left">
+            <div class="access-left ltr wow">
               <h2>
                 언제나 어디서나 즐겁고 편리한 액세스 스타트업 CEO들의 커뮤니티
               </h2>
@@ -121,7 +123,7 @@
                 </a>
               </div>
             </div>
-            <div class="access-right">
+            <div class="access-right rtl wow">
               <img src="images/access-mockup.png" />
             </div>
           </div>
@@ -176,17 +178,17 @@
         </div>
       </section>
       <!-- section : feature -->
-      <section class="feature">
+      <section class="feature" id="feature2">
         <div class="feature-inner">
           <div class="headline-share">
             <h1>스타트업 CEO 커뮤니티</h1>
             <p>스타트 업 비즈니스 발전을 위한 다양한 서비스를 제공합니다.</p>
           </div>
           <div class="feature-content">
-            <div class="feature-mockup">
+            <div class="feature-mockup ltr wow">
               <img src="images/feature-mockup-01.png" />
             </div>
-            <div class="feature-about">
+            <div class="feature-about rtl wow">
               <img src="images/icon-num-01.png" />
               <h2>스타트업 메이트 CEO 평생 회원 자격</h2>
               <p>
@@ -198,7 +200,7 @@
             </div>
           </div>
           <div class="feature-content">
-            <div class="feature-about">
+            <div class="feature-about ltr wow">
               <img src="images/icon-num-02.png" />
               <h2>CEO 오프라인 모임 참석(월 2회)</h2>
               <p>
@@ -208,15 +210,15 @@
                 나누는 자리가 됩니다.
               </p>
             </div>
-            <div class="feature-mockup">
+            <div class="feature-mockup rtl wow">
               <img src="images/feature-mockup-02.png" />
             </div>
           </div>
           <div class="feature-content">
-            <div class="feature-mockup">
+            <div class="feature-mockup ltr wow">
               <img src="images/feature-mockup-03.png" />
             </div>
-            <div class="feature-about">
+            <div class="feature-about rtl wow">
               <img src="images/icon-num-03.png" />
               <h2>조직관리를 위한 오프라인 멘토링</h2>
               <p>
@@ -230,7 +232,7 @@
         </div>
       </section>
       <!-- section : vision -->
-      <section class="vision">
+      <section class="vision" id="feature3">
         <div class="vision-inner">
           <div class="vision-content">
             <div class="vision-item-desc">
@@ -276,14 +278,14 @@
         </div>
       </section>
       <!-- section : faq -->
-      <section class="faq">
+      <section class="faq" id="feature4">
         <div class="faq-inner">
           <div class="headline-share">
             <h1>서비스 이용이 궁금하신가요?</h1>
             <p>스타트업메이트가 도와드리겠습니다.</p>
           </div>
           <div class="faq-content">
-            <div class="faq-accordion">
+            <div class="faq-accordion ltr wow">
               <div class="faq-item active">
                 <div class="faq-title">
                   스타트업 메이트 회원가입이 필수인가요?
@@ -360,7 +362,7 @@
                 </div>
               </div>
             </div>
-            <div class="awards-content">
+            <div class="awards-content rtl wow">
               <div class="awards-image">
                 <img src="images/faq-01.png" />
               </div>
@@ -376,7 +378,7 @@
         </div>
       </section>
       <!-- section : review -->
-      <section class="review">
+      <section class="review" id="feature5">
         <div class="review-inner">
           <div class="headline-share">
             <h1>CEO들의 생생 리뷰</h1>
@@ -425,13 +427,13 @@
         </div>
       </section>
       <!-- section : focus -->
-      <section class="focus">
+      <section class="focus" id="feature6">
         <div class="focus-inner">
           <div class="headline-share">
             <h1>스타트업 비즈니스 커스터마이징</h1>
           </div>
           <div class="focus-content">
-            <div class="focus-item">
+            <div class="focus-item utd wow">
               <img src="images/focus-icon-01.png" />
               <h3>CEO 온라인 컨텐츠 제공</h3>
               <i class="xi-checkbox-blank"></i>
@@ -440,7 +442,7 @@
                 온라인 콘테츠를 제공합니다.
               </p>
             </div>
-            <div class="focus-item">
+            <div class="focus-item utd wow" data-wow-delay="0.25s">
               <img src="images/focus-icon-02.png" />
               <h3>CEO를 위한 경영 멘토링</h3>
               <i class="xi-checkbox-blank"></i>
@@ -449,7 +451,7 @@
                 찾을 수 있습니다.
               </p>
             </div>
-            <div class="focus-item">
+            <div class="focus-item utd wow" data-wow-delay="0.5s">
               <img src="images/focus-icon-03.png" />
               <h3>CEO 오프라인 모임</h3>
               <i class="xi-checkbox-blank"></i>
@@ -465,7 +467,7 @@
       <section class="guide">
         <div class="guide-inner">
           <div class="guide-content">
-            <div class="guide-slider">
+            <div class="guide-slider ltr wow">
               <div class="slider-mockup">
                 <img class="round-mockup" src="images/slder-mockup.png" />
                 <div class="mockup-slider">
@@ -478,7 +480,7 @@
                 </div>
               </div>
             </div>
-            <div class="guide-video">
+            <div class="guide-video rtl wow">
               <h1>
                 customize
                 <br />
@@ -498,13 +500,13 @@
         </div>
       </section>
       <!-- section : news -->
-      <section class="news">
+      <section class="news" id="feature7">
         <div class="news-inner">
           <div class="headline-share">
             <h1>스타트메이트 최신 소식</h1>
           </div>
           <div class="news-content">
-            <div class="news-left">
+            <div class="news-left ltr wow">
               <div class="news-big" onclick="window.open('#none')">
                 <img src="images/news-thum-big.jpg" />
                 <div class="news-headline">
@@ -519,7 +521,7 @@
                 </div>
               </div>
             </div>
-            <div class="news-right">
+            <div class="news-right rtl wow">
               <div class="news-items">
                 <div class="news-thum">
                   <div class="news-photo">
@@ -609,7 +611,10 @@
       </footer>
     </div>
 
-    <!-- Video M0dal -->
+    <!-- Go to top-->
+    <a href="#" class="btn-top"><i class="xi-angle-up-thin"></i> </a>
+
+    <!-- Video Modal -->
     <div class="video-modal">
       <i class="xi-close-thin close-modal"></i>
       <div class="video-content">

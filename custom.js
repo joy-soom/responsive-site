@@ -24,7 +24,27 @@ $(function () {
     autoStart: true,
     breakLines: false,
   });
+
+  // Wow scroll Reveal Animation
+  wow = new WOW({
+    boxClass: "wow",
+    offset: 150,
+    mobile: true,
+  });
+  wow.init();
 });
+
+// Header Scroll Change
+$(function () {
+  $(window).scroll(function () {
+    if ($(window).scrollTop() > 50) {
+      $("header, .btn-top").addClass("active");
+    } else {
+      $("header, .btn-top").removeClass("active");
+    }
+  });
+});
+
 // faq accordian
 $(function () {
   // 첫번째 desc 는 보여지게 하기
