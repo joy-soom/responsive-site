@@ -272,5 +272,23 @@
     margin-top: 10px;
   }
 
-  /* ######################################section : welcome ################################ */
+  /* ######################################section : footer ################################ */
+  footer {
+    padding: 40px 15px;
+    text-align: center;
+  }
+  .footer-inner {
+    width: 100%;
+  }
+
+  .footer-content > div {
+    width: 100%;
+    float: none;
+  }
+  .policy-sns > div {
+    float: none;
+  }
+  .policy {
+    margin: 10px 0;
+  }
 }
