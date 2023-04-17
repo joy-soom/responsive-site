@@ -18,6 +18,7 @@
   font-style: normal;
 }
 
+
 /* Reset css */
 * {
   box-sizing: border-box;
@@ -286,6 +287,12 @@ header.active {
   transform: scale(0.6);
   top: 2.5px;
 }
+.slick-track {
+  height: 1026px;
+}
+.slick-dotted.slick-slider {
+  height: 220px;
+}
 
 /*################################# Section : ceo-access ################################*/
 .ceo-access {
@@ -356,6 +363,9 @@ header.active {
 .access-left {
   padding-right: 20px;
   padding-top: 80px;
+}
+.access-left h2 {
+  font-size: 34px;
 }
 .access-right {
   text-align: center;
@@ -463,7 +473,7 @@ input[id="tab3"]:checked ~ .tab-btn label[for="tab3"] span {
 }
 .feature-content {
   overflow: hidden;
-  margin: 150px 0;
+  margin: 100px 0;
 }
 .feature-content > div {
   float: left;
@@ -534,7 +544,7 @@ input[id="tab3"]:checked ~ .tab-btn label[for="tab3"] span {
   float: left;
   width: 50%;
   padding: 25px;
-  min-height: 650px;
+  min-height: 700px;
 }
 /* faq-accordion */
 
