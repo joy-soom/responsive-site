@@ -4,18 +4,67 @@
     font-size: 16px;
   }
   section {
-    padding: 50px 15px;
+    padding: 80px 15px;
+  }
+  /* #####################################section : header ################################ */
+  .header-inner {
+    width: 100%;
+  }
+  .lgo {
+    float: right;
+    margin-right: 20px;
+  }
+  .gnb {
+    float: none;
+    background-color: #fff;
+    position: fixed;
+    width: 250px;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    box-shadow: 3px 0 3px rgba(0, 0, 0, 0.1);
+    padding-top: 70px;
+    padding-left: 15px;
+    transition: 0.5s;
+    left: -270px;
+  }
+  .gnb.active {
+    left: 0;
+  }
+  .gnb a {
+    display: block;
+  }
+  /* trigger */
+  .trigger {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    cursor: pointer;
+    font-size: 28px;
+    text-align: center;
+  }
+  .trigger:before {
+    content: "\e91c";
+    font-family: xeicon;
+  }
+  .trigger.active:before {
+    content: "\e9af";
   }
   /* ######################################section : welcome ################################ */
-
+  .welcom {
+    background-color: #f9f9f9;
+  }
   .slideshow {
     display: none;
-    background-color: #f9f9f9;
   }
   .welcome-heading {
     width: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
+    margin-top: 100px;
+
   }
   .welcome-heading h1 {
     font-size: 38px;
@@ -28,9 +77,7 @@
   }
   /* Mouse Wheele */
   .mouse {
-    bottom: 40px;
-    left: 50%;
-    transform: translateX(-50%);
+    display: none;
   }
   /* ####################################section : ceo-access ############################## */
 
