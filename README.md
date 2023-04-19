@@ -17,8 +17,8 @@ http://localhost:8282/<br>
 <br>
 
 ## Stacks
-html
-css
-javascript
-jquery
-express
+html<br>
+css<br>
+javascript<br>
+jquery<br>
+express<br>
