@@ -1,8 +1,6 @@
 # RESPONSIVE APP-LANDING SITE
-
-반응형 프론트 퍼블리싱 사이트
-<br><br>
-
+반응형 웹 사이트 (pc, mobile)
+<br>
 ## StartProject
 
 ```
@@ -12,9 +10,12 @@ node app.js
 ```
 
 ## Link
-
-http://localhost:8282/<br>
+http://118.67.132.143:8282/<br>
 <br>
+
+## 페이지 설명
+### 메인 페이지
+
 
 ## Stacks
 html<br>
