@@ -15,7 +15,15 @@ http://118.67.132.143:8282/<br>
 
 ## 페이지 설명
 ### 메인 페이지
+![2023-05-24 19;01;53](https://github.com/joy-soom/responsive-site/assets/110961576/7664d105-2290-487b-b39b-f3a24feb5674)
 
+![2023-05-24 19;02;53](https://github.com/joy-soom/responsive-site/assets/110961576/7986d01f-2037-41e4-8387-a5039ffffe9e)
+
+![2023-05-24 19;03;52](https://github.com/joy-soom/responsive-site/assets/110961576/03a2acb4-6031-4d27-be77-31d624e72da2)
+
+![2023-05-24 19;04;34](https://github.com/joy-soom/responsive-site/assets/110961576/378898e9-376b-4626-a910-8e99f010a667)
+
+![2023-05-24 19;05;42](https://github.com/joy-soom/responsive-site/assets/110961576/62686a1b-9092-41ce-83ce-dd13f24f3413)
 
 ## Stacks
 html<br>
